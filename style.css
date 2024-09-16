@@ -1,36 +1,41 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 20px;
-    background-color: #f4f4f4;
+    line-height: 1.6;
 }
 
-.letter {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    max-width: 800px;
+.container {
+    width: 70%;
     margin: 0 auto;
 }
 
-h2 {
-    color: #333;
-    font-size: 1.2em;
-    margin-top: 20px;
+.address {
+    text-align: right;
+    margin-bottom: 30px;
 }
 
-p, ul, ol {
-    margin-bottom: 15px;
+h3 {
+    margin-top: 30px;
 }
 
 ul, ol {
-    padding-left: 20px;
+    margin-left: 20px;
 }
 
-ul li, ol li {
-    margin-bottom: 10px;
+dl {
+    margin-left: 20px;
 }
 
-strong {
+dt {
     font-weight: bold;
+    margin-top: 10px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
