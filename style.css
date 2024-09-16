@@ -1,41 +1,43 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
     line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
 }
 
-.container {
-    width: 70%;
+.letter-container {
+    background-color: #fff;
+    padding: 20px;
     margin: 0 auto;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.address {
-    text-align: right;
-    margin-bottom: 30px;
+h2 {
+    font-size: 1.5em;
 }
 
 h3 {
-    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+address {
+    font-style: normal;
+    line-height: 1.4;
+    margin-bottom: 20px;
 }
 
 ul, ol {
     margin-left: 20px;
 }
 
-dl {
-    margin-left: 20px;
-}
-
-dt {
-    font-weight: bold;
-    margin-top: 10px;
+footer {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 0.9em;
 }
 
 a {
-    color: blue;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+    color: #00f;
 }
