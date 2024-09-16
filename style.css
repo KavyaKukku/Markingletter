@@ -1,43 +1,36 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 20px;
+    margin: 20px;
     background-color: #f4f4f4;
 }
 
-.letter-container {
+.letter {
     background-color: #fff;
     padding: 20px;
+    border: 1px solid #ddd;
+    max-width: 800px;
     margin: 0 auto;
-    width: 60%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    font-size: 1.5em;
-}
-
-h3 {
+    color: #333;
     font-size: 1.2em;
+    margin-top: 20px;
 }
 
-address {
-    font-style: normal;
-    line-height: 1.4;
-    margin-bottom: 20px;
+p, ul, ol {
+    margin-bottom: 15px;
 }
 
 ul, ol {
-    margin-left: 20px;
+    padding-left: 20px;
 }
 
-footer {
-    margin-top: 20px;
-    font-style: italic;
-    font-size: 0.9em;
+ul li, ol li {
+    margin-bottom: 10px;
 }
 
-a {
-    color: #00f;
+strong {
+    font-weight: bold;
 }
