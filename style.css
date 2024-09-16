@@ -1,32 +1,41 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 20px;
     line-height: 1.6;
-    margin: 40px;
-    background-color: #f4f4f4;
 }
 
 .container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 0 auto;
 }
 
-.sender-address, .receiver-address {
+.address {
     text-align: right;
-    margin-bottom: 20px;
-}
-
-.letter-body {
-    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 h3 {
-    margin-top: 20px;
-    margin-bottom: 5px;
+    margin-top: 30px;
 }
 
-h4 {
+ul, ol {
+    margin-left: 20px;
+}
+
+dl {
+    margin-left: 20px;
+}
+
+dt {
+    font-weight: bold;
     margin-top: 10px;
-    margin-bottom: 5px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
